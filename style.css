@@ -1,7 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
 h1 {
     display: flex;
     color: white;
-    background-color: green;
+    background-color: #93d453;
     justify-content: center;
- 
+    padding: 10px;
 }
+
+input {
+    border: 3px solid #93d453;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+
+button {
+    border: 3px solid #93d453;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    color: #93d453;
+    justify-content: center;
+    font-size: small;
+}
+
+.inputBox {
+    display: flex;
+    ;
+}
+
+.newEl {
+    color: #e0a141;
+    display: flex;
+    flex-direction: row;
+}
+
+
+

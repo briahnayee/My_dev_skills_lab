@@ -9,7 +9,7 @@ $('button').on('click', function() {
     //get the input from the user and store it in a variable
     let element = $('input').val();
     //make a div element and add the array content to the div
-    const $div = $('<div>').text(element);
+    const $div = $('<div>').text(element).addClass("newEl");
     //append the div to the div #mySkills
     $('#mySkills').append($div);
     //clear the input content
